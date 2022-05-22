@@ -17,10 +17,10 @@
   </div>
 
   <div :class="showMenu ? 'flex' : 'hidden'" class="menu w-full flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8">
-      <div class="text-md font-bold text-white lg:flex-grow">
-          <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white text-gray-300 px-4 py-2 rounded hover:bg-blue-700 mr-2">Home</router-link>
+      <div class="text-md font-bold lg:flex-grow">
+          <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">Home</router-link>
           <router-link to="/favourites" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">Favourites</router-link>
-          <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">History</router-link>
+          <router-link to="/history" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">History</router-link>
       </div>
       <div class="relative mx-auto text-white lg:block hidden">
           <input
@@ -40,7 +40,7 @@
   </div>
 </nav>
   <router-view/>
-  <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+  <footer class="fixed inset-x-0 bottom-0 p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com" class="hover:underline">Tablature™</a>. All Rights Reserved.
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
@@ -72,6 +72,10 @@ export default {
 
 
 <style scoped>
+.active {
+color: green;
+}
+
 .border-gradi {
   border-top-style: 2px solid;
   border-image-slice: 1;
@@ -170,7 +174,7 @@ nav a {
   color: #2c3e50;
 }
 
-@layer nav a.router-link-exact-active {
-  background-color: @apply bg-blue-700;
+nav a.router-link-exact-active {
+  color: white;
 }
 </style>
