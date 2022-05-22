@@ -1,7 +1,7 @@
 <template>
 
   <main>
-    <div class="home p-10 flex flex-wrap justify-center gap-8 pt-10">
+    <div class="home p-10 flex flex-wrap justify-center gap-8">
       <TopSongs />
       <NewTabs />
     </div>
