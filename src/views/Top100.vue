@@ -2,19 +2,19 @@
 
   <main>
     <div class="list p-10 flex flex-wrap justify-center gap-8">
-        <ListTabs />
+        <TopSongs100 />
     </div>
   </main>
 
 </template>
 
 <script>
-import ListTabs from '../components/ListTabs.vue'
+import TopSongs100 from "../components/TopSongs100.vue";
 
 export default {
-  name: 'ListView',
+  name: 'TopSongs',
   components: {
-    ListTabs
+    TopSongs100
   }
 }
 </script>

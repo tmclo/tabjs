@@ -2,7 +2,8 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
-    "./src/**/*.{vue,js,ts,jsx,tsx}"
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   darkMode: 'class',
   theme: {
@@ -29,5 +30,6 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-border-gradient-radius'),
+    require('flowbite/plugin'),
   ],
 }

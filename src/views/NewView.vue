@@ -2,19 +2,19 @@
 
   <main>
     <div class="list p-10 flex flex-wrap justify-center gap-8">
-        <ListTabs />
+        <NewTabsAll />
     </div>
   </main>
 
 </template>
 
 <script>
-import ListTabs from '../components/ListTabs.vue'
+import NewTabsAll from "../components/NewTabsAll.vue";
 
 export default {
-  name: 'ListView',
+  name: 'NewTabs',
   components: {
-    ListTabs
+    NewTabsAll
   }
 }
 </script>
