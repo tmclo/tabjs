@@ -19,7 +19,7 @@
   <div :class="showMenu ? 'flex' : 'hidden'" class="menu w-full flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8">
       <div class="text-md font-bold text-white lg:flex-grow">
           <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white text-gray-300 px-4 py-2 rounded hover:bg-blue-700 mr-2">Home</router-link>
-          <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">Favourites</router-link>
+          <router-link to="/favourites" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">Favourites</router-link>
           <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">History</router-link>
       </div>
       <div class="relative mx-auto text-white lg:block hidden">
