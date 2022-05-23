@@ -37,7 +37,7 @@ export default {
   },
 
   async created() {
-    axios.get('https://tabsjs.aa2.workers.dev/api/new')
+    axios.get('https://tabsjs.aa2.workers.dev/api/new/top')
     .then(response => {
       this.New = response.data
     })
