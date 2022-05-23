@@ -1,5 +1,5 @@
 <template>
-<div class="max-w-md rounded-lg border bg-white p-4 shadow-md dark:border-gray-700 dark:bg-gray-800 sm:p-8">
+<div class="max-w-md min-w-max rounded-lg border bg-white p-4 shadow-md dark:border-gray-700 dark:bg-gray-800 sm:p-8" style="width: 80%;">
   <div class="mb-4 flex items-center justify-between">
     <h5 class="text-3xl sm:text-md md:text-md font-bold leading-none text-gray-900 dark:text-white">New Tabs</h5>
     <a href="#" class="text-lg md:text-xs sm:text-xs font-medium text-blue-600 hover:underline dark:text-blue-500"> See more </a>
