@@ -1,6 +1,6 @@
 # tabsjs
 
-![homepage screenshot](https://raw.githubusercontent.com/tmclo/tabjs/main/homepage.png "homepage screenshot")
+![homepage screenshot](https://raw.githubusercontent.com/tmclo/tabjs/main/homepage.png?token=GHSAT0AAAAAABSYRNWD7S43VYNMZRGTDDUQYUMYJ2A "homepage screenshot")
 
 ## Project setup
 ```
