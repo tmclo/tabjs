@@ -1,5 +1,7 @@
 # tabsjs
 
+![homepage screenshot](https://raw.githubusercontent.com/tmclo/tabjs/main/homepage.png "homepage screenshot")
+
 ## Project setup
 ```
 yarn install
