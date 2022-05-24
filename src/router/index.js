@@ -5,6 +5,7 @@ import HistoryView from '../views/HistoryView.vue'
 import ListView from '../views/ListView.vue'
 import Top100 from '../views/Top100.vue'
 import NewView from '../views/NewView.vue'
+import SearchView from '../views/SearchView.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/new-tabs',
     name: 'new-tabs',
     component: NewView
+  },
+  {
+    path: '/search',
+    name: 'search',
+    component: SearchView
   }
 ]
 
